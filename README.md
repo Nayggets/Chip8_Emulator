@@ -1,4 +1,6 @@
 # Chip8_Emulator
+## History 
+I decided to undertake this project in order to understand the basics of simplistic machine emulation and to improve in C++.
 
 ## Main TODO:
 * [x] Chip8 Stack
