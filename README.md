@@ -1,4 +1,6 @@
 # Chip8_Emulator
+This is a simple Chip8_emulator you can play with ROM easely.
+
 ## History 
 I decided to undertake this project in order to understand the basics of simplistic machine emulation and to improve in C++.
 
