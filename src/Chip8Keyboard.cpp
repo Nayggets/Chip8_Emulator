@@ -1,5 +1,5 @@
 #include "Chip8Keyboard.hpp"
-#include "SDL2/SDL.h"
+#include "SDL3/SDL.h"
 
     Chip8Keyboard::Chip8Keyboard()
     {
