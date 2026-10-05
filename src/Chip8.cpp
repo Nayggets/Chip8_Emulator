@@ -1,5 +1,5 @@
 #include "Chip8.hpp"
-#include "SDL3/SDL.h"
+#include "SDL2/SDL.h"
 #include <iostream>
 #include <unistd.h>
 #include <string>
@@ -30,6 +30,7 @@ void Chip8::run(char* code,int size)
     bool m_quit = true;
     while(m_quit)
     {
+        usleep(20);
         SDL_Event event;
         while(SDL_PollEvent(&event))
         {

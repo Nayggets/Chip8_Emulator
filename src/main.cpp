@@ -32,9 +32,9 @@ int main(int argc, char* argv[])
         return -1;
     }
 
-    for(int i = 0 ; i < size ; i = i +2){
-        std::cout << std::hex << (short) ((unsigned char)buf[i] << 8 | (unsigned char)buf[i+1])  << std::endl;
-    }
+    //for(int i = 0 ; i < size ; i = i +2){
+        //std::cout << std::hex << (short) ((unsigned char)buf[i] << 8 | (unsigned char)buf[i+1])  << std::endl;
+    //}
 
 
     Chip8 chip8{};
